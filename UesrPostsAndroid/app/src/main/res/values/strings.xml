@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SampleRecyclerView</string>
+
+    <string name="new_users">New Users</string>
+    <string name="str_name">Name</string>
+    <string name="str_address">Address</string>
+    <string name="no_internet">Please check your internet connection</string>
+    <string name="network_error">Network error, could get data,please try again!</string>
+
+    <string name="formatted_address">%1$s\n%2$s\n%3$s</string>
+    <string name="str_new_users">Hey! Check out new users\n added to our group!</string>
+
+</resources>

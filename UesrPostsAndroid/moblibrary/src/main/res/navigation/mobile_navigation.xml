@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_city_list">
+
+    <fragment
+        android:id="@+id/navigation_city_forecast"
+        android:name="com.pudagane.mobiquity.test.ui.cityForecast.CityForecastFragment"
+        android:label="@string/title_forecast_list"
+        tools:layout="@layout/fragment_city_forecast" />
+
+    <fragment
+        android:id="@+id/navigation_city_list"
+        android:name="com.pudagane.mobiquity.test.ui.details.CityListFragment"
+        android:label="@string/title_details"
+        tools:layout="@layout/fragment_city_list" />
+
+    <fragment
+        android:id="@+id/navigation_select_location_from_mag_fragment"
+        android:name="com.pudagane.mobiquity.test.ui.selectLocation.SelectLocationFromMagFragment"
+        android:label="@string/title_chose_location"
+        tools:layout="@layout/fragment_maps" />
+
+    <fragment
+        android:id="@+id/navigation_help"
+        android:name="com.pudagane.mobiquity.test.ui.help.HelpFragment"
+        android:label="@string/help"
+        tools:layout="@layout/help_fragment" />
+</navigation>

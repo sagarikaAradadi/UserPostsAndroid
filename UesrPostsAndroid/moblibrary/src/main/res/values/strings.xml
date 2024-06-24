@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MobWeatherForcast</string>
+    <string name="title_forecast_list">Forecast List</string>
+    <string name="title_details">Select City</string>
+    <string name="title_chose_location">Select City From Mam</string>
+
+    <string name="error_text">Error occurred while loading data</string>
+    <string name="select">Select</string>
+    <string name="cancel">Cancel</string>
+    <string name="help">Help</string>
+</resources>

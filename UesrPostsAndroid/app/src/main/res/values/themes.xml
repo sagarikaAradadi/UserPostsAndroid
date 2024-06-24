@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.SampleRecyclerView" parent="Theme.MaterialComponents.Light.DarkActionBar" >
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+
+        <!-- Set the splash screen background to black -->
+        <item name="windowSplashScreenBackground">@color/app_blue</item>
+        <!-- Use windowSplashScreenAnimatedIcon to add a drawable or an animated
+             drawable. -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_black_logo</item>
+        <item name="windowSplashScreenAnimationDuration">5000</item>
+
+        <!-- Set the theme of the Activity that follows your splash screen. -->
+        <item name="postSplashScreenTheme">@style/Theme.SampleRecyclerView</item>
+
+    </style>
+
+    <style name="Theme.App" parent="@android:style/Theme.DeviceDefault" />
+
+</resources>
